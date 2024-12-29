@@ -6,7 +6,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 
 # Loading the dataset to pandas DataFrame
-loan_dataset = pd.read_csv('C:/Users/ARUN KUMAR/Desktop/Summer-Intership/Loan_Data.csv')
+loan_dataset = pd.read_csv(r'Loan_Data.csv')
 
 # Preprocessing steps as per your previous code
 loan_dataset.replace({"Loan_Status": {'N': 0, 'Y': 1}}, inplace=True)
